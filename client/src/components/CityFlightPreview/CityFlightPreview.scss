@@ -1,0 +1,41 @@
+.card-container {
+    border: 1px solid;
+    border-radius: 10px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+.card-container:hover {
+    transform: scale(1.01);
+}
+.star{
+    font-size: 20px;
+    color: #cfce45;
+    cursor: pointer;
+}
+
+img {
+    width: 40px;
+}
+.destination{
+    width: 110px;
+}
+
+@media screen and (max-width: 870px) {
+    .card-container{
+        padding: 5px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:750px) {
+    .dates{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:530px) {
+    .card-container{
+        font-size: 12px;
+    }
+    img {
+        width: 30px;
+    }
+}

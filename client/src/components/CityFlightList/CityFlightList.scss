@@ -1,0 +1,12 @@
+.flight-details {
+    width: 100%;
+}
+
+@media screen and (max-width: 530px) {
+    .flight-details {
+        width: 370px;
+    }
+    .destination {
+        width: 85px;
+    }
+}
